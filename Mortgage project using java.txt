@@ -1,4 +1,5 @@
 // Project: Mortgage calculator
+----------------------------------
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
 
@@ -24,8 +25,9 @@
         //we can write like this also
         System.out.println("Mortgage: " + NumberFormat.getCurrencyInstance().format(mortgage));
 
-
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Project: mortgage calculator ( adding some more features (error handling))
+-------------------------------------------------------------------------------
         float MONTHS_IN_YEAR = 12;
         float PERCENT = 100;
 
