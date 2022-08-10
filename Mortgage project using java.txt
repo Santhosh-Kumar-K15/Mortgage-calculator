@@ -27,7 +27,7 @@
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Project: mortgage calculator ( adding some more features (error handling))
--------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------
         float MONTHS_IN_YEAR = 12;
         float PERCENT = 100;
 
@@ -64,8 +64,6 @@
         }
         System.out.println("Enter a value between 1 and 30.");
     }
-
-
         double mortgage = principal
                 * ( monthlyInterest * Math.pow(1 + monthlyInterest , numberOfPayments)) /  // n=number of payments
                 (Math.pow(1 + monthlyInterest , numberOfPayments) - 1);
